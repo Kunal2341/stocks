@@ -9,7 +9,7 @@ st.title('Stocks')
 
 @st.cache
 def read():
-    dfx = pd.read_excel("/Users/kunal/Documents/AAPersonalAIPROJECT/Stock/symbolsStock.xlsx")
+    dfx = pd.read_excel("/root/stocks/symbolsStock.xlsx")
     return dfx
 df = read()
 def getStockArray(stocksSelected1, stocksSelected2,dic):
